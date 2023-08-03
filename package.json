@@ -1,0 +1,20 @@
+{
+	"name": "my_erc20_hardhat",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"postinstall": "npx hardhat init-foundry"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@nomicfoundation/hardhat-foundry": "^1.0.2",
+		"hardhat": "^2.17.1"
+	},
+	"devDependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^3.0.0"
+	}
+}
